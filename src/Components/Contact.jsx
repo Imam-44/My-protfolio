@@ -2,7 +2,7 @@ import { MdEmail, MdPhone, MdWhatsapp } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <section className="bg-gradient-to-r from-indigo-900 via-purple-800 to-pink-700 text-white py-16">
+    <section id="contact" className="scroll-mt-16 bg-gradient-to-r from-indigo-900 via-purple-800 to-pink-700 text-white py-16">
       <div className="w-11/12 max-w-5xl mx-auto animate-fadeIn">
 
         {/* Section Title */}

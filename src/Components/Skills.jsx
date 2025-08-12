@@ -32,8 +32,8 @@ const Skills = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-r from-indigo-900 via-purple-800 to-pink-700 text-white py-16">
-      <div className="w-11/12 mx-auto text-center animate-fadeIn">
+    <section id="skills" className="scroll-mt-16 bg-gradient-to-r from-indigo-900 via-purple-800 to-pink-700 text-white py-16">
+      <div className="w-11/12 mx-auto px-6 text-center animate-fadeIn">
         
         {/* Section Title */}
         <h2 className="text-3xl md:text-4xl font-bold font-poppins mb-4">

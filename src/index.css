@@ -1,12 +1,15 @@
 @import "tailwindcss";
 
 /* google font  */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
   font-family: "Poppins", sans-serif;
 }
+.font-signature {
+   font-family: "Pacifico", cursive;
+}
+
 
 @keyframes slideInLeft {
   from { opacity: 0; transform: translateX(-50px); }
@@ -44,4 +47,8 @@ body{
 
 .animate-fadeIn {
   animation: fadeIn 1.2s ease-out forwards;
+}
+
+html {
+  scroll-behavior: smooth;
 }

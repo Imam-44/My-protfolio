@@ -1,9 +1,9 @@
 import { FaGithub, FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
 
 const Hero = () => {
-  return (
-    <section className="bg-gradient-to-r from-indigo-900 via-purple-800 to-pink-700 text-white py-16">
-      <div className="w-11/12 mx-auto flex flex-col-reverse md:flex-row items-center gap-12">
+  return ( 
+    <section id="home" className="scroll-mt-16 bg-gradient-to-r from-indigo-900 via-purple-800 to-pink-700 text-white py-16">
+      <div className="w-11/12 mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-12">
 
         {/* Left Side */}
         <div className="flex-1 text-center md:text-left animate-slideInLeft">
@@ -68,7 +68,7 @@ const Hero = () => {
         <div className="flex-1 flex justify-center animate-slideInRight">
           <div className="w-72 h-[450px] rounded-xl overflow-hidden shadow-2xl border-4 border-yellow-300">
             <img
-              src="https://i.ibb.co.com/nM9YGKLL/Whats-App-Image-2025-08-08-at-08-19-46-be2bd7bb.jpg" // তোমার vertical photo path দাও
+              src="https://i.ibb.co.com/nM9YGKLL/Whats-App-Image-2025-08-08-at-08-19-46-be2bd7bb.jpg" 
               alt="Your Name"
               className="w-full h-full object-cover"
             />
