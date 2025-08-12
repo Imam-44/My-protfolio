@@ -36,7 +36,7 @@ const Navbar = () => {
         {/* Brand */}
         <h1 className="text-2xl font-bold tracking-wide cursor-pointer select-none flex gap-2">
           <img src="../logo.png" alt="logo" className="w-8 h-8" />
-          <Link to="/"  onClick={() => setMenuOpen(false)} className="text-amber-300 text-3xl font-signature">
+          <Link to="/" onClick={() => setMenuOpen(false)} className="text-amber-300 text-3xl font-signature">
             Imam Hasan
           </Link>
         </h1>
@@ -82,13 +82,12 @@ const Navbar = () => {
 
         {/* Resume Button desktop */}
         <a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/resume"
           className="hidden md:inline-block bg-yellow-300 text-purple-900 px-5 py-2 rounded-lg font-semibold hover:bg-yellow-400 transition"
         >
           Resume
         </a>
+
 
         {/* Hamburger Menu Button */}
         <button
@@ -142,14 +141,15 @@ const Navbar = () => {
 
             {/* Resume Button mobile */}
             <a
-              href="/resume.pdf"
-              target="_blank"
+              href="/resume"
+              target="_self"
               rel="noopener noreferrer"
-              className="mt-2 bg-yellow-300 text-purple-900 px-5 py-2 rounded-lg font-semibold hover:bg-yellow-400 transition text-center"
+              className="mt-4 bg-yellow-300 text-purple-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition text-center"
               onClick={() => setMenuOpen(false)}
             >
               Resume
             </a>
+
           </nav>
         </div>
       )}
