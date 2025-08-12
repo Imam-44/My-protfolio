@@ -8,7 +8,7 @@ const Hero = () => {
         {/* Left Side */}
         <div className="flex-1 text-center md:text-left animate-slideInLeft">
           <h1 className="text-4xl md:text-5xl font-bold font-poppins mb-4">
-            Hi, I’m <span className="text-yellow-300">Your Name</span>
+            Hi, I’m <span className="text-yellow-300 font-signature ">Imam Hasan</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-yellow-200 mb-6">
             Full Stack Developer
