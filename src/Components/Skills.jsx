@@ -37,9 +37,9 @@ const Skills = () => {
         
         {/* Section Title */}
         <h2 className="text-3xl md:text-4xl font-bold font-poppins mb-4">
-          Skills
+         All My Skills
         </h2>
-        <div className="w-24 h-1 bg-amber-400 mx-auto mb-12 rounded-full"></div>
+        <div className="w-44 h-2 bg-amber-400 mx-auto mb-12 rounded-full"></div>
 
         {/* Skill Categories */}
         <div className="space-y-12">
